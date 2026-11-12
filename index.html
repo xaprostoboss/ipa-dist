@@ -2,43 +2,48 @@
 <html lang="zh-CN"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>鸭脖去水印 · 安装</title>
+<title>鸭脖的传说 · 安装</title>
 <style>
 body{margin:0;min-height:100vh;background:#05030c;color:#eaf6ff;
  font-family:ui-monospace,Menlo,Consolas,monospace;padding:32px 20px;
  background-image:radial-gradient(120% 60% at 50% 0%,rgba(255,42,184,.18),transparent 60%),
                   radial-gradient(120% 60% at 50% 100%,rgba(0,245,255,.16),transparent 60%)}
 h1{font-size:22px;color:#00f5ff;margin:0 0 6px;text-shadow:0 0 10px rgba(0,245,255,.8)}
-.sub{font-size:11px;color:rgba(0,245,255,.6);letter-spacing:1px;margin-bottom:28px}
+.sub{font-size:11px;color:rgba(0,245,255,.6);letter-spacing:1px;margin-bottom:26px}
 .card{border:1px solid rgba(0,245,255,.35);background:rgba(12,8,24,.66);
  border-radius:16px;padding:18px;margin-bottom:14px}
-.install{display:block;text-align:center;text-decoration:none;padding:17px;border-radius:13px;
- font-weight:800;font-size:16px;color:#04150a;
- background:linear-gradient(90deg,#73ff8c,#00f5ff);box-shadow:0 0 22px rgba(115,255,140,.5)}
+.install{display:block;text-align:center;text-decoration:none;padding:18px;border-radius:13px;
+ font-weight:800;font-size:17px;color:#04150a;
+ background:linear-gradient(90deg,#73ff8c,#00f5ff);box-shadow:0 0 24px rgba(115,255,140,.55)}
 .dl{display:block;text-align:center;text-decoration:none;margin-top:12px;padding:14px;
  border-radius:12px;color:#ffe83c;border:1px solid #ffe83c;font-size:13px}
 .meta{font-size:11px;line-height:2;color:#7fd9e8}
 .meta b{color:#ffe83c}
-.warn{margin-top:16px;font-size:11px;line-height:1.8;color:#ff9aa4;
+.warn{margin-top:16px;font-size:11px;line-height:1.9;color:#ff9aa4;
  border-left:2px solid #ff4d5e;padding-left:10px}
+code{background:rgba(0,0,0,.55);padding:2px 6px;border-radius:5px;
+ word-break:break-all;font-size:10px;color:#00f5ff}
 </style></head><body>
-<h1>鸭脖去水印</h1>
-<div class="sub">&gt; IPA DIRECT INSTALL</div>
+<h1>鸭脖的传说</h1>
+<div class="sub">&gt; IPA DIRECT INSTALL · CDN</div>
 <div class="card">
-  <a class="install" href="itms-services://?action=download-manifest&url=https://xaprostoboss.github.io/ipa-dist/manifest.plist">立即安装</a>
-  <a class="dl" href="鸭脖去水印-92b86a1d.ipa">下载 ipa（自签用）</a>
+  <a class="install" href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/xaprostoboss/ipa-dist@8152d4b250fdfaf99a820ec4c9aacf9c7fa178b3/jd-manifest.plist">▶ 立即安装</a>
+  <a class="dl" href="https://cdn.jsdelivr.net/gh/xaprostoboss/ipa-dist@8152d4b250fdfaf99a820ec4c9aacf9c7fa178b3/app-c94d6207.ipa">下载 ipa（自签用）</a>
   <div class="meta" style="margin-top:16px">
-    应用 <b>鸭脖去水印</b><br>
-    Bundle <b>app.azure8693.silver9606</b><br>
-    版本 <b>1.0.0</b> · 大小 <b>7.2 MB</b>
+    应用 <b>鸭脖的传说</b><br>
+    Bundle <b>com.yabo.chuanshuo</b><br>
+    版本 <b>2.1</b> · 大小 <b>1.3 MB</b><br>
+    线路 <b>jsDelivr CDN</b>
   </div>
 </div>
 <div class="card">
-  <div class="meta">直链：<br>
-   <span style="word-break:break-all;color:#00f5ff">https://xaprostoboss.github.io/ipa-dist/鸭脖去水印-92b86a1d.ipa</span></div>
+  <div class="meta" style="margin-bottom:6px">若上面按钮没反应，把下面整段复制到 Safari 地址栏：</div>
+  <code>itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/xaprostoboss/ipa-dist@8152d4b250fdfaf99a820ec4c9aacf9c7fa178b3/jd-manifest.plist</code>
 </div>
 <div class="warn">
-未签名的 ipa 点「立即安装」会提示「无法安装」，这是 iOS 的签名校验，不是链接问题。<br>
-要真正点链接直装，需企业证书 / Ad Hoc / 开发证书签名后的包。
+必须用 <b>Safari</b> 打开本页，微信/QQ 内置浏览器不支持安装。<br>
+装不上时看提示：<br>
+「无法连接」→ 换 Wi-Fi 或蜂窝重试<br>
+「无法安装」→ 设备 UDID 不在描述文件里
 </div>
 </body></html>
