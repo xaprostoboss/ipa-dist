@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.caudi.yabowatermark</string>
+				<string>com.yabo.chuanshuo</string>
 				<key>bundle-version</key>
-				<string>1.0.0</string>
+				<string>2.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>鸭脖去水印</string>
+				<string>鸭脖的传说</string>
 			</dict>
 		</dict>
 	</array>
