@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>鸭脖去水印 · 安装</title>
+<style>
+:root{--cy:#00f5ff;--mg:#ff2ab8;--lm:#73ff8c;--yl:#ffe83c}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:#05030c;color:#eaf6ff;
+ font-family:ui-monospace,Menlo,Consolas,monospace;padding:32px 20px;
+ background-image:radial-gradient(120% 60% at 50% 0%,rgba(255,42,184,.18),transparent 60%),
+                  radial-gradient(120% 60% at 50% 100%,rgba(0,245,255,.16),transparent 60%)}
+h1{font-size:22px;color:var(--cy);margin:0 0 6px;text-shadow:0 0 10px rgba(0,245,255,.8)}
+.sub{font-size:11px;color:rgba(0,245,255,.6);letter-spacing:1px;margin-bottom:28px}
+.icon{width:96px;height:96px;border-radius:22px;margin:0 auto 18px;display:block;
+ box-shadow:0 0 24px rgba(0,245,255,.35),0 0 60px rgba(255,42,184,.25)}
+.card{border:1px solid rgba(0,245,255,.35);background:rgba(12,8,24,.66);
+ border-radius:16px;padding:18px;margin-bottom:14px;box-shadow:0 0 16px rgba(0,245,255,.16)}
+.install{display:block;text-align:center;text-decoration:none;padding:17px;border-radius:13px;
+ font-weight:800;font-size:16px;letter-spacing:1px;color:#04150a;
+ background:linear-gradient(90deg,var(--lm),var(--cy));
+ box-shadow:0 0 22px rgba(115,255,140,.5)}
+.dl{display:block;text-align:center;text-decoration:none;margin-top:12px;padding:14px;
+ border-radius:12px;color:var(--yl);border:1px solid var(--yl);font-size:13px}
+.meta{font-size:11px;line-height:2;color:#7fd9e8}
+.meta b{color:var(--yl)}
+.warn{margin-top:16px;font-size:11px;line-height:1.8;color:#ff9aa4;
+ border-left:2px solid #ff4d5e;padding-left:10px}
+.ok{color:var(--lm)}
+</style></head><body>
+<h1>鸭脖去水印</h1>
+<div class="sub">&gt; IPA DIRECT INSTALL</div>
+<img class="icon" src="icon.png" alt="icon">
+<div class="card">
+  <a class="install" id="go" href="#">立即安装</a>
+  <a class="dl" href="yabo.ipa">下载 ipa 文件（自签用）</a>
+  <div class="meta" style="margin-top:16px">
+    应用 <b>鸭脖去水印</b><br>
+    版本 <b>1.0.0</b> · 最低 <b>iOS 15.0</b><br>
+    大小 <b>7.2 MB</b> · 架构 <b>arm64</b>
+  </div>
+</div>
+<div class="card">
+  <div class="meta">
+    <span class="ok">●</span> 直链托管 GitHub Pages（HTTPS）<br>
+    安装链接：<br><span style="word-break:break-all;color:#00f5ff">itms-services://?action=download-manifest&url=https://xaprostoboss.github.io/ipa-dist/manifest.plist</span>
+  </div>
+</div>
+<div class="warn">
+这个 ipa 目前是<b>未签名</b>的。点「立即安装」系统会尝试装，然后提示「无法安装」——
+这属于正常现象，不是链接坏了。<br><br>
+未签名包要装到 iPhone，只能自签：Sideloadly（电脑）或 ESign（手机）。
+拿到签名证书后，这个页面不用改，点按钮就能直接装。
+</div>
+<script>
+document.getElementById('go').href = "itms-services://?action=download-manifest&url=https://xaprostoboss.github.io/ipa-dist/manifest.plist";
+</script>
+</body></html>
