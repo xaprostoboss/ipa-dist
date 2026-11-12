@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://cdn.jsdelivr.net/gh/xaprostoboss/ipa-dist@main/鸭脖去水印-92b86a1d.ipa</string>
+					<string>https://cdn.jsdelivr.net/gh/xaprostoboss/ipa-dist@main/app-c94d6207.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>app.azure8693.silver9606</string>
+				<string>com.yabo.chuanshuo</string>
 				<key>bundle-version</key>
-				<string>1.0.0</string>
+				<string>2.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>鸭脖去水印</string>
+				<string>鸭脖的传说</string>
 			</dict>
 		</dict>
 	</array>
